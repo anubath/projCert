@@ -17,7 +17,7 @@ public class App
 {
     public static void main( String[] args )
     {
-		System.setProperty("webdriver.chrome.driver","/home/new/chromedriver"); 
+		System.setProperty("webdriver.chrome.driver","/usr/lib/"); 
 		ChromeOptions chromeOptions = new ChromeOptions(); 
 		chromeOptions.addArguments("--headless");
 		chromeOptions.addArguments("--no-sandbox");
